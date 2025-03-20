@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="../src/style.css" />
+    <link
+      href="https://www.fontspace.com/brussels-city-font-f77356"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="upperLeft">
+          <div id="search">
+            <form action="./">
+              <button type="submit" class="searchButton filter-accent">
+                <img
+                  type="button"
+                  src="../src/assets/icons/magnify.svg"
+                  alt="Search"
+                />
+              </button>
+
+              <div class="searchbar">
+                <input type="text" name="searchQuery" id="searchQuery" />
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="upperRight1">
+          <div>
+            <a href="#">
+              <img src="../src/assets/icons/bell-circle(1).png" alt="" />
+            </a>
+          </div>
+        </div>
+        <div class="upperRight2">
+          <div id="logo">
+            <a href="#"
+              ><img src="../src/assets/avatars/myAvatar(4).svg" alt=""
+            /></a>
+          </div>
+        </div>
+        <div class="upperRight3">
+          <div class="profileName"><a href="#">Steckins Ming</a></div>
+        </div>
+
+        <div class="lowerSection">
+          <div class="lowerLeft">
+            <div class="logoBig">
+              <img src="../src/assets/avatars/myAvatar(4).svg" alt="" />
+            </div>
+            <div class="dashGreeting">
+              <p>Hello there,<br /></p>
+              <div><a href="#">Steckins Ming (@stickym)</a></div>
+            </div>
+          </div>
+          <div class="lowerRight">
+            <div class="dashControl"><button type="button">New</button></div>
+            <div class="dashControl"><button type="button">Upload</button></div>
+            <div class="dashControl"><button type="button">Share</button></div>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar">
+        <div class="sidebarhome">
+          <div class="menuitem firstitem filter-white">
+            <div class="icon firsticon">
+              <img
+                class="filter-white"
+                src="../src/assets/icons/cigar3.png"
+                alt=""
+              />
+            </div>
+            <div class="link firstlink"><a href="#">Lounge</a></div>
+          </div>
+        </div>
+
+        <div class="sidebarcontent">
+          <a href="#"
+            ><div class="menuitem">
+              <div class="icon">
+                <img
+                  src="../src/assets/icons/bullhorn-variant-outline(1).png"
+                  alt=""
+                />
+              </div>
+              <span class="link">Board</span>
+            </div></a
+          >
+          <a href="#"
+            ><div class="menuitem">
+              <div class="icon">
+                <img
+                  src="../src/assets/icons/email-multiple-outline(1).png"
+                  alt=""
+                />
+              </div>
+              <span class="link">Messages</span>
+            </div></a
+          >
+          <a href="#"
+            ><div class="menuitem">
+              <div class="icon">
+                <img src="../src/assets/icons/rhombus-split.png" alt="" />
+              </div>
+              <span class="link">Agora</span>
+            </div></a
+          >
+          <a href="#"
+            ><div class="menuitem">
+              <div class="icon">
+                <img src="../src/assets/icons/sprout(1).png" alt="" />
+              </div>
+              <span class="link">Status</span>
+            </div></a
+          >
+          <a href="#"
+            ><div class="menuitem">
+              <div class="icon">
+                <img src="../src/assets/icons/alpha-c-circle.png" alt="" />
+              </div>
+              <span class="link">Credit</span>
+            </div></a
+          >
+          <a href="#"
+            ><div class="menuitem">
+              <div class="icon">
+                <img src="../src/assets/icons/tools.png" alt="" />
+              </div>
+              <span class="link">Settings</span>
+            </div></a
+          >
+        </div>
+        <div class="sidebarsettings">
+          <div class="menuitem">
+            <div class="icon">
+              <img src="../src/assets/icons/shield-alert-outline.png" alt="" />
+            </div>
+            <span class="link"><a href="">Support</a></span>
+          </div>
+          <div class="menuitem">
+            <div class="icon">
+              <img src="../src/assets/icons/toilet.png" alt="" />
+            </div>
+            <span class="link"><a href="">Logout</a></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="mainContent">
+          <div class="heading">
+            <p>Your Projects</p>
+          </div>
+          <div class="projectCards">
+            <div class="card">
+              <div class="cardHeading">
+                <a href="#">How to scratch your back efficiently</a>
+              </div>
+              <div class="cardPreview">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+                ratione inventore alias ipsum. Fugit laboriosam quidem dolor
+                nesciunt? Quas, aperiam in temporibus ea saepe tenetur ab harum
+                explicabo recusandae?
+              </div>
+              <div class="cardActions">
+                <button>
+                  <img
+                    src="../src/assets/icons/cards-heart-outline.svg"
+                    alt="favourite"
+                    class="first"
+                  />
+                </button>
+
+                <button>
+                  <a href="#">
+                    <img
+                      src="../src/assets/icons/message-plus-outline.svg"
+                      alt="comment"
+                    />
+                  </a>
+                </button>
+                <button>
+                  <img
+                    src="../src/assets/icons/share-variant-outline.svg"
+                    alt="share"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="cardHeading"><a href="#">Launch Codes</a></div>
+              <div class="cardPreview">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Repellat, maiores.
+              </div>
+              <div class="cardActions">
+                <button>
+                  <img
+                    src="../src/assets/icons/cards-heart-outline.svg"
+                    alt="favourite"
+                    class="first"
+                  />
+                </button>
+
+                <button>
+                  <a href="#">
+                    <img
+                      src="../src/assets/icons/message-plus-outline.svg"
+                      alt="comment"
+                    />
+                  </a>
+                </button>
+                <button>
+                  <img
+                    src="../src/assets/icons/share-variant-outline.svg"
+                    alt="share"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="cardHeading"><a href="#">Spicy Tamales</a></div>
+              <div class="cardPreview">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Tempora quo, quibusdam ipsum fugit repudiandae nihil veniam
+                reprehenderit fuga molestiae explicabo?
+              </div>
+              <div class="cardActions">
+                <button>
+                  <img
+                    src="../src/assets/icons/cards-heart-outline.svg"
+                    alt="favourite"
+                    class="first"
+                  />
+                </button>
+
+                <button>
+                  <a href="#">
+                    <img
+                      src="../src/assets/icons/message-plus-outline.svg"
+                      alt="comment"
+                    />
+                  </a>
+                </button>
+                <button>
+                  <img
+                    src="../src/assets/icons/share-variant-outline.svg"
+                    alt="share"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="cardHeading"><a href="#">Perplexing layouts</a></div>
+              <div class="cardPreview">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Maiores dolorum harum facere quisquam numquam perferendis
+                nostrum deleniti eum quae corrupti dolorem, eius nam molestiae
+                suscipit?
+              </div>
+              <div class="cardActions">
+                <button>
+                  <img
+                    src="../src/assets/icons/cards-heart-outline.svg"
+                    alt="favourite"
+                    class="first"
+                  />
+                </button>
+
+                <button>
+                  <a href="#">
+                    <img
+                      src="../src/assets/icons/message-plus-outline.svg"
+                      alt="comment"
+                    />
+                  </a>
+                </button>
+                <button>
+                  <img
+                    src="../src/assets/icons/share-variant-outline.svg"
+                    alt="share"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="cardHeading">
+                <a href="#">Proper elbow hygiene</a>
+              </div>
+              <div class="cardPreview">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
+                maxime?
+              </div>
+              <div class="cardActions">
+                <button>
+                  <img
+                    src="../src/assets/icons/cards-heart-outline.svg"
+                    alt="favourite"
+                    class="first"
+                  />
+                </button>
+
+                <button>
+                  <a href="#">
+                    <img
+                      src="../src/assets/icons/message-plus-outline.svg"
+                      alt="comment"
+                    />
+                  </a>
+                </button>
+                <button>
+                  <img
+                    src="../src/assets/icons/share-variant-outline.svg"
+                    alt="share"
+                  />
+                </button>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="cardHeading"><a href="#">Meringue recipes</a></div>
+              <div class="cardPreview">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia,
+                officia totam suscipit veniam excepturi fuga.
+              </div>
+              <div class="cardActions">
+                <button>
+                  <img
+                    src="../src/assets/icons/cards-heart-outline.svg"
+                    alt="favourite"
+                    class="first"
+                  />
+                </button>
+
+                <button>
+                  <a href="#">
+                    <img
+                      src="../src/assets/icons/message-plus-outline.svg"
+                      alt="comment"
+                    />
+                  </a>
+                </button>
+                <button>
+                  <img
+                    src="../src/assets/icons/share-variant-outline.svg"
+                    alt="share"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="sideContent">
+          <div class="news">
+            <div class="heading">
+              <p>What's new?</p>
+            </div>
+            <div class="subContent">
+              <div class="subPreview">
+                <a href="#">
+                  <div class="subHeading">
+                    <p>Nice weather update:</p>
+                  </div>
+                </a>
+
+                <br />
+                <div class="subText">
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab,
+                    error.
+                  </p>
+                </div>
+              </div>
+              <div class="subPreview">
+                <a href="#">
+                  <div class="subHeading">
+                    <p>Car theft left inside?</p>
+                  </div>
+                </a>
+
+                <br />
+                <div class="subText">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam,
+                  quas! Sunshine!
+                </div>
+              </div>
+              <div class="subPreview lastItem">
+                <a href="#">
+                  <div class="subHeading">
+                    <p>It's got a back door!</p>
+                  </div>
+                </a>
+
+                <br />
+                <div class="subText">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Illo, dolore.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="userSuggestions">
+            <div class="heading">
+              <p>Trending</p>
+            </div>
+            <div class="subContent lower">
+              <div class="suggestion">
+                <div class="avatar">
+                  <a href="#"
+                    ><img src="../src/assets/avatars/myAvatar.svg" alt=""
+                  /></a>
+                </div>
+                <div class="suggText">
+                  <div class="subHeading"><a href="#">@cucumbers</a></div>
+                  <div class="subMessage">
+                    <p>
+                      The modern vegetable garden is compromised of a varied
+                      sinusitis...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="suggestion">
+                <div class="avatar">
+                  <a href="#"
+                    ><img src="../src/assets/avatars/myAvatar(2).svg" alt=""
+                  /></a>
+                </div>
+                <div class="suggText">
+                  <div class="subHeading"><a href="#">@nicefurniture</a></div>
+                  <div class="subMessage">
+                    <p>Why hello there aren't you quite the handsome person</p>
+                  </div>
+                </div>
+              </div>
+              <div class="suggestion">
+                <div class="avatar">
+                  <a href="#"
+                    ><img src="../src/assets/avatars/myAvatar(1).svg" alt=""
+                  /></a>
+                </div>
+                <div class="suggText">
+                  <div class="subHeading"><a href="#">@buffgus</a></div>
+                  <div class="subMessage">
+                    <p>Hector last chance to look at me, hector.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="suggestion">
+                <div class="avatar">
+                  <a href="#"
+                    ><img src="../src/assets/avatars/myAvatar(3).svg" alt=""
+                  /></a>
+                </div>
+                <div class="suggText">
+                  <div class="subHeading lastItem">
+                    <a href="#">@wowddeals</a>
+                  </div>
+                  <div class="subMessage">
+                    <p>
+                      Dear Sir or Lady, look at my deals, if you care my
+                      starving family
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
